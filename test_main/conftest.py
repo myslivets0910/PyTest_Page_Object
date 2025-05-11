@@ -17,4 +17,4 @@ def browser(request):
     # Настройка веб-драйвера
     driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
     yield driver
-    driver.quit()`
+    driver.quit()
